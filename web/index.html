@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test Json As you Required...</title>
+        
+        <script type="text/javascript" src="/eel.js"></script>
+        <script type="text/javascript">
+        
+        eel.expose(say_hello_js);               // Expose this function to Python
+        function say_hello_js(para_json) {
+            console.log(para_json)
+        }        
+        </script>
+    </head>
+    
+    <body>
+        Json File load in EEL Python.
+        Check console Log
+    </body>
+</html>
